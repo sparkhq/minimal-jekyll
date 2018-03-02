@@ -1,5 +1,4 @@
-# Spark Jekyll Template
+# Spark Minimal Jekyll Theme
 
-Includes default layout files and some basic SCSS mixins and breakpoints and font settings.
-
-Also contains a makefile for pushing the resulting built site to S3 and invalidating Cloudfront caches. Nice.
+To Build Assets: npm run production
+To Build To Static: jekyll build

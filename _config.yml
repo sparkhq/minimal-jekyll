@@ -4,12 +4,8 @@
 title:    'Spark Minimal Theme'
 subtitle: 'A simple spark theme'
 
-
-nav:
-- { title: 'Welcome',              href: '/' }
-- { title: 'About Us',             href: '/about.html' }
-- { title: 'Contact',           href: '/contact.html' }
-#- { title: 'About',                href: 'https://github.com/henrythemes/jekyll-starter-theme-v2' }
+destination: public
+source: src
 
 markdown: kramdown
 
@@ -17,5 +13,4 @@ sass:
   sass_dir: css
   style:    compressed
 
-exclude:
-- README.md
+exclude: ['node_modules']
